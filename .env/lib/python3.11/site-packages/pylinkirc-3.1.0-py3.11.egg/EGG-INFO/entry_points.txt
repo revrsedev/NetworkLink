@@ -1,0 +1,2 @@
+[console_scripts]
+pylink = pylinkirc.launcher:main

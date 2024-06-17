@@ -1,0 +1,4 @@
+#!/home/debian/irc/bridges/PyLink/.env/bin/python3
+# EASY-INSTALL-SCRIPT: 'pylinkirc==3.1.0','pylink-mkpasswd'
+__requires__ = 'pylinkirc==3.1.0'
+__import__('pkg_resources').run_script('pylinkirc==3.1.0', 'pylink-mkpasswd')
