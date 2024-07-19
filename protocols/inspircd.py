@@ -86,7 +86,7 @@ class InspIRCdProtocol(TS6BaseProtocol):
         self.servers[server].users.add(uid)
 
         self._send_with_prefix(server, "UID {uid} {ts} {nick} {realhost} {host} {ident} {ip}"
-                               " {ts} {modes} + :{realname}".format(ts=ts, host=host,
+                               " {ts} +{modes} :{realname}".format(ts=ts, host=host,
                                nick=nick, ident=ident, uid=uid,
                                modes=raw_modes, ip=ip, realname=realname,
                                realhost=realhost))
